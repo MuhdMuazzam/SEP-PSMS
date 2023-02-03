@@ -1,0 +1,53 @@
+<style>
+			.body{
+				background-image: url('https://t4.ftcdn.net/jpg/01/37/47/83/360_F_137478365_Hqd1xK6UdA0jyvpATtgwChSLsG9eVlRc.jpg');
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+			.dropbtn {
+			  background-color: #FFFACD;
+			  color: black;
+			  font-weight: bold;
+			  padding: 10px;
+			  padding-left: 25px;
+			  padding-right: 25px;
+			  font-size: 15px;
+			  border-style: 2px outset;
+			  cursor: pointer;
+			}
+
+			.dropdown {
+			  position: relative;
+			  display: inline-block;
+			}
+
+			.dropdown-content {
+			  display: none;
+			  position: absolute;
+			  right: 0;
+			  background-color: #f9f9f9;
+			  min-width: 160px;
+			  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			  z-index: 1;
+			}
+
+			.dropdown-content a {
+			  color: black;
+			  background-color: #FFF8DC;
+			  padding: 10px 16px;
+			  text-decoration: none;
+			  border: 1px solid black;
+			  display: block;
+			}
+
+			.dropdown-content a:hover {background-color: #f1f1f1;}
+
+			.dropdown:hover .dropdown-content {
+			  display: block;
+			}
+
+			.dropdown:hover .dropbtn {
+			  background-color: #F5DEB3;
+			}
+		</style>
